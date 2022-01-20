@@ -2,8 +2,11 @@
     
     
 }
+*{
+    box-sizing: border-box;
+}
 body{
-    /* background-color: black ; */
+    background-color: black ;
 }
 .name{
     font-family: "Poppins";
@@ -26,12 +29,22 @@ body{
     align-items: center;
     padding: 90px 0;
 }
+.secondSection{
+    padding: 90px 0;
+    background-size: cover;
+}
 h4{
     font-family: "Poppins";
 }
 .myinfo{
     font-family: "Poppins";
     font-size: 64px;
+    margin: 0;
+    line-height: 70px;
+}
+.myinfo1{
+    font-family: "Poppins";
+    font-size: 34px;
     margin: 0;
     line-height: 70px;
 }
@@ -46,11 +59,13 @@ h4{
     
 }
 .secondImage{
-    right: -8%;
+    
+    right: -4%;
     bottom: -7%;
     width: 40%;
     /* height: 40%; */
     box-shadow: 2px 20px 30px 0px rgb(20 20 20 / 20%);  
+    z-index: 1;
 }
 .aboutMe{
     font-family: "Poppins";
