@@ -98,3 +98,10 @@ h2{
     font-size: 36px;
     color: #d83434;
 }
+.fourthSection{
+    background: url(../images/4.jpg) 0% 0% / cover fixed;
+    padding: 90px 0;
+}
+.fifthSection{
+    padding: 90px 0;
+}
