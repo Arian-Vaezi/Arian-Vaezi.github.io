@@ -107,3 +107,51 @@ h2{
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
+.sixthSection{
+    padding: 90px 0;
+}
+h5{
+    color:#d83434;
+    font-family: "Poppins";
+    font-weight: bold;
+
+}
+.sixthSection h2{
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+    font-size: 11px;
+}
+li a{
+    padding: 5px 20px ;
+    color: #515c6a; 
+    transition: .3s;
+}
+
+li a:hover {
+    color: #111;
+    
+}
+ul li{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.gallery div{
+    cursor: pointer;
+}
+.overlay{
+    opacity: 0;
+}
+.gallery .overlay:hover {
+    opacity: 1;
+    background-color: rgba(216, 52, 52, 0.8);
+    transition: .3s;
+    padding-top: 30%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color:white;
+}
+
+
