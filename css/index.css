@@ -107,6 +107,7 @@ h2{
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
+
 .sixthSection{
     padding: 90px 0;
 }
@@ -153,5 +154,31 @@ ul li{
     font-size: 16px;
     color:white;
 }
-
-
+section{
+    padding: 90px 0;
+}
+.seventhSection h2{
+   
+        font-size: 40px;
+    
+}
+.redDivInner{
+    border-radius: 10px 10px 0 0;
+}
+.post-date{
+    margin-right: 20px;
+    font-size: 13px;
+    color: white;
+    font-family: "Nunito";
+}
+.post-text{
+    padding: 10px 20px 0 30px;
+}
+.post-text h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #35404e;
+}
