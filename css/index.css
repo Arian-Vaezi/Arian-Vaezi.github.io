@@ -182,3 +182,18 @@ section{
     font-weight: bold;
     color: #35404e;
 }
+.eighthSection h2{
+   
+    font-size: 40px;
+}
+.eighthSection div i{
+    color: #d83434;
+    font-size: 40px;
+}
+.eighthSection h6{
+    color: #d83434;
+    margin-top: 0;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
