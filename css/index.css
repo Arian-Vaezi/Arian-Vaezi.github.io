@@ -196,4 +196,22 @@ section{
     font-family: "Poppins";
     font-weight: bold;
 }
+footer{
+    background: #35404e;
+    color: #ffffff;
+    padding: 40px 0 40px 0;
+}
+.gPlus{
+    color: white;
+    background-color: red;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border-radius: 60px;
+    margin: 0 5px 0 5px;
+    padding: 12px 10px 8px 10px;
+    font-size: 16px;
+    vertical-align: -15%;
+    line-height: 0.75em;
+}
 
