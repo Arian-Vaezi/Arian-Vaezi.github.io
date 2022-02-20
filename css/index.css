@@ -214,4 +214,119 @@ footer{
     vertical-align: -15%;
     line-height: 0.75em;
 }
+.c2{
+    display: inline-block;
+  }
+  .typewriter .type2{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 1s;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: white; }
+  }
+#back-to-top.show {
+    bottom: 40px;
+    opacity: 1;
+    /* background-color:red; */
+    position: fixed;
+
+    right: 40px;
+    z-index: 1020;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: .7s;
+}
+.arrow:hover {
+	background: #111;
+    color: red;
+}
+#de-selector {
+    width: 40px;
+    position: fixed;
+    right: 0;
+    top: 160px;
+    padding: 10px;
+    padding-bottom: 0;
+    z-index: 1000;
+    background: #ffffff;
+    border-radius: 5px 0 0 5px;
+}
+#de-selector .opt {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid 1px rgba(255,255,255,0);
+}
+#de-selector .opt.tc1 {
+    background: #2fb297;
+}
+#de-selector .opt.tc2 {
+    background: #e0c634;
+}
+#de-selector .opt.tc3 {
+    background: #4e36d4;
+}
+#de-selector .opt.tc4 {
+    background: #b22f3a;
+}
+#de-selector .opt.tc5 {
+    background: #6ab22f;
+}
+#de-selector .opt.tc6 {
+    background: #e05818;
+}
+#de-selector #related-items {
+    background: red;
+    color: white;
+    
+        font-weight: bold;
+        user-select: none;
+        margin-top: 50px;
+        right: 0;
+        width: 40px;
+        height: 39px;
+        position: absolute;
+        padding: 8px;
+        padding-top: 0px;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+        transition: .7s;
+}
+#de-selector #related-items:before {
+    content: '\f129';
+    font-family: 'Font Awesome 5 Free';
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+
+#de-selector #dark-mode:hover, #de-selector #related-items:hover {
+    width: 190px;
+}
+
 
