@@ -16,15 +16,15 @@ body{
     font-family: "Poppins";
     padding: 15px 0;
 }
-.icons{
-    color: red;
+.social-icons{
+    /* color: red; */
     transition: .7s;
     
 }
-.socialmedia .icons:hover {
-    color: #fff;
-    background-color: red;
-    border-radius: 50%;
+.social-icons i:hover{
+    color: red;
+    background-color: white;
+    transition: .7s;
 }
 .firstSection{
     background: url(../images/1.jpg) center top / cover;
@@ -328,5 +328,19 @@ footer{
 #de-selector #dark-mode:hover, #de-selector #related-items:hover {
     width: 190px;
 }
-
+#mainmenu {
+    display: inline-block;
+    font-family: "Nunito";
+    font-size: 16px;
+    margin: 0 auto;
+    padding-right: 20px;
+    height: 70px;
+}
+#mainmenu li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
 
